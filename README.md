@@ -35,3 +35,5 @@ ___
 
 #### dev-dependencies:
 - node -v ^16.19", port as the vite port default, which is localhost:5173
+
+made by Lor3m1psum : https://github.com/Lor3m1psum
