@@ -1,0 +1,19 @@
+.thumb-container {
+    width: 30px;
+    min-width: 30px;
+    height: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thumb-positive {
+    background-color: #3CBBB4;
+}
+.thumb-negative {
+    background-color: #FBBD4A;
+}
+
+.thumb-active {
+    border: 2px solid #ffffff;
+}

@@ -1,46 +1,129 @@
 .card-container {
-    /* flex: 0 1 33%; */
     display: flex;
-    /* width: 15rem; */
-    max-width: 30%;
     flex-direction:column;
     background-size: cover;
     background-position: center;
     color: #ffffff;
-    /* height: fit-content; */
 }
 
+.card-container-grid {
+    max-width: 31.6%;
+}
 
-.card-img {
+.card-container-list {
     width: 100%;
-}
 
 .card-name {
     display: flex;
     align-items: center;
-    gap: 0.4rem;
-    font-size: 36px;
     font-weight: 400;
-    line-height: 43px;
     letter-spacing: 0px;
     text-align: left;
+}
 
+.card-name-grid {
+    display: flex;
+    gap: 0.4rem;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.card-name-list {
+    display: flex;
+    gap: 7.5rem;
+    font-size: 28px;
+    line-height: 33.6px;
+    max-width: 460px;
 }
 
 .card-description {
-    /* margin:0.5rem; */
+    line-height: 18px;
+}
+
+.card-description-grid {
     font-size: 15px;
+    line-height: 18px;
+}
+.card-description-list {
+    font-size: 14px;
+    line-height: 16.8px;
+    justify-content: flex-start;
+    max-width: 460px;
+    margin-left: 160px;
 }
 
 .card-votes-caption {
-    margin:0.5rem ;
+
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin: auto 34px 12px auto;
 }
 
-.thumbs-vote{
-    padding:0;
+.thumbs-votes {
+    display: flex;
+    flex-direction: column;
+    margin: auto 34px 12px auto;
+}
+.thumbs-votes-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+}
+.thumbs-votes-list {
+    display:flex;
+    justify-content: space-around;
+    align-items: end;
 }
 
+.vote-buttons-container {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
 
 .total-votes {
     margin:0.5rem ;
+}
+
+.vote-percentage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vote-percentage-positive,
+.vote-percentage-negative {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    min-width: 25%;
+}
+
+.vote-percentage-positive {
+    background: #3CBBB499;
+    padding: 10px 0 10px 12px;
+    justify-content: flex-start;
+}
+
+.vote-percentage-negative {
+    background: #F9AD1D99;
+    padding: 10px 12px 10px 0;
+    justify-content: flex-end;
+}
+
+.vote-percentage-icon {
+    width: 15px;
+    height: 15px;
+}
+
+.vote-button {
+    appearance: none;
+    border: 1px solid #FFFFFF;
+    background: rgba(0, 0, 0, 0.6);
+    font-size: 15px;
+    color: #ffffff;
+    width: 107px;
+    height: 38px;
 }
