@@ -27,7 +27,7 @@ function App() {
 
   return (
     <div className="App">
-      <div>Previous Rulings <select onChange={(event) => setCardDisplay(event.target.value)}>
+      <div className="select-view">Previous Rulings <select className="select-style" onChange={(event) => setCardDisplay(event.target.value)}>
         <option value="grid">Grid</option>
         <option value="list">List</option>
       </select></div>

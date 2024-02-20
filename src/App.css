@@ -18,3 +18,17 @@
 .card-wrapper-list {
   gap: 14px;
 }
+
+.select-view{
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.select-style{
+  width: 131px;
+  height: 28px;
+  border: 2px solid #000000;
+
+}

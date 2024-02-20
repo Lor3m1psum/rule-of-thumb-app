@@ -23,8 +23,9 @@ ___
 ✅ after pressing "Vote now" button, an eyebrow text will show "Thank you for your vote", with an enabled "Vote again" button.  
 ✅ The gauge bar will reflect changes after a vote is sent.  
 ✅ if "Vote again" button is pressed, then will enable voting buttons again.  
-✅ all posted button are persistent (localstorage).  
-✅ if user voted or enable voting again, those changes will persist, even after browser is refreshed.
+✅ all posted button are persistent (json server).  
+✅ if user voted or enable voting again, those changes will persist if refreshing the browser.  
+✅ some unit test were implemented with jest (npm run test).  
 
 #### Steps to run in your local:
 
@@ -33,4 +34,4 @@ ___
 
 
 #### dev-dependencies:
-- node -v ^16.19, port as the vite port default, which is http://localhost:5173/
+- node -v ^16.19", port as the vite port default, which is localhost:5173

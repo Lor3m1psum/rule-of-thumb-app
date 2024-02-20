@@ -44,7 +44,7 @@ export const Card = ({
         </h1>
         <p className={`card-description card-description${type === "grid" ? "-grid" : "-list"}`}>{description}</p>
 
-        <div className={`thumbs-votes thumbs-votes${type === "grid" ? "-grid" : "-list"}`}>
+        <div className="thumbs-votes">
         {hasVoted ?
           <>
             <p className="card-votes-caption">thank you for your vote!</p>
