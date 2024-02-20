@@ -1,0 +1,46 @@
+.card-container {
+    /* flex: 0 1 33%; */
+    display: flex;
+    /* width: 15rem; */
+    max-width: 30%;
+    flex-direction:column;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    /* height: fit-content; */
+}
+
+
+.card-img {
+    width: 100%;
+}
+
+.card-name {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.card-description {
+    /* margin:0.5rem; */
+    font-size: 15px;
+}
+
+.card-votes-caption {
+    margin:0.5rem ;
+}
+
+.thumbs-vote{
+    padding:0;
+}
+
+
+.total-votes {
+    margin:0.5rem ;
+}
