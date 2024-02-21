@@ -16,19 +16,25 @@
 }
 
 .card-wrapper-list {
-  gap: 14px;
+  display: flex;
+  gap: 0.9rem;
 }
 
 .select-view{
   display: flex;
   justify-content: space-between;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
 }
 
 .select-style{
-  width: 131px;
-  height: 28px;
-  border: 2px solid #000000;
+  width: 8.2rem;
+  height: 1.75rem;
+  border: 0.125rem solid #000000;
+}
 
+.select-option-style {
+  width: 8.2rem;
+  height: 1.75rem;
+  border: 0.125rem solid #000000;
 }

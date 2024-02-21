@@ -1,11 +1,21 @@
 .thumb-container {
-    width: 30px;
-    min-width: 30px;
-    height: 30px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
 }
+
+.thumb-container-small {
+    width: 30px;
+    min-width: 30px;
+    height: 30px;
+}
+
+.thumb-container-big {
+    width: 45px;
+    min-width: 45px;
+    height: 45px;
+}
+
 
 .thumb-positive {
     background-color: #3CBBB4;

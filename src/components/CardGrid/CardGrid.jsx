@@ -6,9 +6,9 @@ import ThumbIcon from "../ThumbIcon/ThumbIcon";
 import { formatDistanceToNow } from "date-fns";
 import { useState } from "react";
 
-export const Card = ({ 
-    type = "grid", 
+export const CardGrid = ({ 
     imgSrc,
+    imgAlt,
     name, 
     description, 
     lastUpdated,
@@ -38,12 +38,11 @@ export const Card = ({
 
 
   return (
-      <div className={`card-container card-container${type === "grid" ? "-grid" : "-list"}`} style={{ backgroundImage: `url(${getImageUrl(imgSrc)})` }}>
-        <h1 className={`card-name card-name${type === "grid" ? "-grid" : "-list"}`}>
+    <div className="card-container" role="img" aria-label={imgAlt} style={{ backgroundImage: `url(${getImageUrl(imgSrc)})` }}>
+        <h1 className="card-name">
           <ThumbIcon iconSrc={votingAverageStyles.iconSrc} type={votes.positive > votes.negative ? 'positive' : 'negative'} />{name}
         </h1>
-        <p className={`card-description card-description${type === "grid" ? "-grid" : "-list"}`}>{description}</p>
-
+        <p className="card-description">{description}</p>
         <div className="thumbs-votes">
         {hasVoted ?
           <>
