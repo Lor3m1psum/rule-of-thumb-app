@@ -24,7 +24,11 @@ ___
 ✅ The gauge bar will reflect changes on positive or negative votes as soon as the vote is sent.  
 ✅ if "Vote again" button is pressed, then will enable voting buttons again.  
 ✅ all votes persists with local storage implementation.  
-✅ if user voted or enable voting again, those changes will persist if refreshing the browser.  
+✅ if user voted or enable voting again, those changes will persist if refreshing the browser. 
+
+_notes regarding differences with figma designs:
+I personally prefer how it looks font-weight in 300 because it preserve better the figma design card looks
+also the width of the card in mobile was selected to be 400px instead of 300px as figma shows_
 
 #### Steps to run in your local:
 
