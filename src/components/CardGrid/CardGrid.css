@@ -1,12 +1,14 @@
+
 .card-container {
     font-weight: 300;
     display: flex;
     flex-direction:column;
     background-size: cover;
     background-position: center;
-    max-width: 31.6%;
     color: #ffffff;
     height: 348px;
+    margin-right: 12px;
+    max-width: 400px;
 }
 
 .card-name {
@@ -19,13 +21,12 @@
     font-weight: 400;
     letter-spacing: 0px;
     gap: 0.4rem;
-    font-size: 36px;
+    font-size: 30px;
     line-height: 43px;
     text-align: left;
     margin: 40% 0% 0% 0%;
     max-height: 74px;
 }
-
 
 .card-description {
     font-size: 15px;
@@ -36,14 +37,6 @@
     text-overflow: ellipsis;
     overflow: hidden;
 }
-
-/* .card-description-list {
-    font-size: 14px;
-    line-height: 16.8px;
-    justify-content: flex-start;
-    max-width: 340px;
-    margin-left: 121px;
-} */
 
 .card-votes-caption {
     font-size: 12px;
@@ -113,3 +106,23 @@
     width: 107px;
     height: 38px;
 }
+
+@media (min-width: 768px){
+
+   .card-container {
+       max-width: 48.5%;
+       margin-right: 0;
+   }
+}
+
+@media (min-width: 1440px){
+
+    .card-container {
+        max-width: 31.6%;
+    }
+}
+
+
+
+
+    

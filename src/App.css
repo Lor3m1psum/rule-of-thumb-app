@@ -10,10 +10,9 @@
 }
 
 .card-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
+  width: 100%;
 }
+
 
 .card-wrapper-list {
   display: flex;
@@ -28,13 +27,31 @@
 }
 
 .select-style{
+  display: none;
   width: 8.2rem;
   height: 1.75rem;
   border: 0.125rem solid #000000;
 }
 
-.select-option-style {
-  width: 8.2rem;
-  height: 1.75rem;
-  border: 0.125rem solid #000000;
+
+@media (min-width:768px) {
+  .card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 21px;
+    width: 100%;
+  }
+
+  .select-style{
+    display: block;
+  }
 }
+
+@media (min-width: 1440px){
+
+  .card-wrapper {
+    gap: 27px;
+  }
+}
+
+/* .slick-list{margin-left: -10px;} */

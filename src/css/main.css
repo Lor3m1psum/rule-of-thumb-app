@@ -390,6 +390,7 @@ hr[role="separator"] {
 
 main[role="main"] {
     padding: 0 1rem;
+    padding-right: 0;
     margin-top: 2rem;
 }
 
